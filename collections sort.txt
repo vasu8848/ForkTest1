@@ -1,0 +1,12 @@
+‘Iterator’ is an interface which belongs to collection framework. It allows us to traverse the collection
+
+boolean hasNext(): It returns true if Iterator has more element to iterate.
+
+next(): It returns the next element in the collection until the hasNext()method return true. 
+
+internally the Sort method does call Compare method of the classes it is sorting
+Compare method returns -1, 0, or 1 to say if it is less than, equal, or greater to the other. I
+
+comparable -we can sort the collection on the basis of a single element such as id, name, and price.
+
+comparator - we can sort the collection on the basis of multiple elements such as id, name, and price etc.
